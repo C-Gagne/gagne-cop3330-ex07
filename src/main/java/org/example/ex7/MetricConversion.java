@@ -8,6 +8,7 @@ package org.example.ex7;
 public class MetricConversion {
     public static Double calculateMetric(Integer area)
     {
-        return area/10.764;
+        Double conversionSqFtToM = 10.764;
+        return area/conversionSqFtToM;
     }
 }
